@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Joing - Space Invaders</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5186597038258774"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <main>
+        <nav class="w-screen border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+              <a href="../index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Play Joying</span>
+              </a>
+              <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <a href="../index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                      <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Blog <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+            </svg></button>
+                      <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
+                            <li>
+                              <a href="doodle-jump.html" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Doodle jump</a>
+                            </li>
+                            <li>
+                              <a href="2048.html" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">2048</a>
+                            </li>
+                            <li>
+                              <a href="../index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Killing Mob</a>
+                            </li>
+                            <li>
+                              <a href="spaceinvaders.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Space Invaders</a>
+                            </li>
+                            <li>
+                              <a href="snake.html" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Snake</a>
+                            </li>
+                            <li>
+                              <a href="memorycard.html" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Memory Card</a>
+                            </li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li>
+                    <a href="../page/about.html" target="_blank" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
+                  </li>
+                  <li>
+                    <a href="../page/contact.html" target="_blank" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Affiliate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="flex justify-center flex-col leading-none items-center text-white dark:bg-gray-900 h-96 w-screen">
+            <h1 class="text-[5vw] font-semibold">Know more about</h1>
+            <h1 class="text-[4vw]">Space Invaders</h1>
+        </div>
+
+        <div class="blog_content px-[5%] h-full w-full py-5">
+            <div class="content flex items-center flex-col  ">
+                <img src="../Img/hero_spaceinvaders.png" class="rounded-lg w-[50vw]" alt="">
+                <div class='p-10 flex flex-col gap-3'>
+                    <h1 class="font-bold text-2xl">Space Invaders: A Blast From the Past</h1>
+                    <p>Space Invaders, a pioneering arcade game released in 1978, revolutionized the gaming landscape. Its simple yet addictive gameplay, combined with innovative technology, captivated players worldwide and laid the foundation for the entire video game industry.</p>
+
+                    <ul class="list-disc">
+                        <h2 class="font-bold">Gameplay:</h2>
+                        <li>Objective: Defend Earth from an alien invasion by shooting down waves of descending alien ships.</li>
+                        <li>Controls: Players use a joystick or directional buttons to move a horizontally positioned cannon.</li>
+                        </ul>
+                        <ul class="list-disc">
+                        <h2 class="font-bold">Gameplay Mechanics:</h2>
+                        <li>Aliens descend in rows, firing projectiles at the player's cannon.</li>
+                        <li>Players must accurately aim and fire their cannon to destroy the aliens before they reach the bottom of the screen.</li>
+                        <li>Barriers protect the player's cannon, but they can be destroyed by alien fire.</li>
+                        <li>Scoring: Points are awarded for destroying aliens, with bonus points for destroying the alien mothership that occasionally appears.</li>
+                    </ul>
+
+                   
+
+                    <ul class="list-disc">
+                        <h2 class="font-bold">Key Features:</h2>
+                        <li>Pioneering Technology: Space Invaders utilized innovative hardware, including custom-designed chips for smooth gameplay and vibrant visuals.</li>
+                        <li>Addictive Gameplay: The fast-paced action and challenging difficulty kept players hooked for hours.</li>
+                        <li>Cultural Impact: The game became a global phenomenon, popularizing arcade gaming and inspiring countless imitators.</li>
+                    </ul>
+
+
+                    <ul class="list-disc">
+                        <h2 class="font-bold">Unique Aspects:</h2>
+                        <li>Simple Yet Effective: The core gameplay is remarkably simple, yet incredibly engaging and challenging.</li>
+                        <li>Cultural Icon: Space Invaders became a cultural icon, influencing popular culture and inspiring countless video games that followed.</li>
+                        <li>Technological Innovation: The game pushed the boundaries of video game technology, paving the way for more complex and sophisticated games.</li>
+                    </ul>
+
+                    <ul class="list-disc">
+                        <h2 class="font-bold">Cultural Impact:</h2>
+                        <li>Birth of Arcade Gaming: Space Invaders played a pivotal role in the rise of arcade gaming, attracting large crowds and generating significant revenue.</li>
+                        <li>Inspiration for Future Games: The game's influence can be seen in countless subsequent games, from classic shooters to modern-day action titles.</li>
+                        <li>Cultural Phenomenon: Space Invaders transcended the realm of gaming, becoming a cultural icon recognized by people worldwide.</li>
+                    </ul>
+
+                    <ul class="flex flex-col gap-2">
+                        <h2 class="font-bold">My Take:</h2>
+                        <li>Recreating Space Invaders in HTML has been a rewarding experience. It allowed me to explore web development techniques and share a piece of gaming history with others. I encourage you to give it a try and see if you can achieve a new high score!</li>
+                        <a class="w-[150px] h-10 rounded-lg justify-center items-center flex bg-gray-900 text-white" href="../games/space-invaders-master/index.html">Play Now</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<footer class="bg-white shadow dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="../index.html" class="hover:underline">Play Joing</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="../index.html" target="_blank" class="hover:underline me-4 md:me-6">Home</a>
+        </li>
+        <li>
+            <a href="../page/about.html" target="_blank" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="../page/contact.html" target="_blank" class="hover:underline me-4 md:me-6">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
